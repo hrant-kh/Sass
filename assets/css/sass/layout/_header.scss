@@ -1,0 +1,11 @@
+body{
+    display: flex;
+	flex-direction: column;    
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: $color-red;
+    box-shadow: 0 0 $size-10px $size-10px $color-black;
+}

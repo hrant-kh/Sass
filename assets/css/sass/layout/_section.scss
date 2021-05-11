@@ -1,0 +1,35 @@
+section{
+    padding: $size-20px;
+    flex: 1 0 auto;
+
+    .container{
+        border-radius: $size-20px;
+        width: 100%;
+        height: auto;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        >div{
+            padding: $size-10px;
+            >img{
+                width: 200px;
+                height: 100px;
+                border-radius: $size-20px;                
+            }
+            h1{
+                font-size: 40px;
+                color: $color-blue;
+            }
+            p{
+                font-size: $size-20px;
+                margin: $size-10px 0;
+            }
+            button{
+                @extend %btn;
+            }
+            button:hover{
+                @include btn-hover(gray, red)
+            }
+        }
+    }
+}

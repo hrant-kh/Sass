@@ -1,0 +1,4 @@
+@mixin btn-hover($bgcl, $cl) {
+    background-color: $bgcl;
+    color: $cl;    
+}

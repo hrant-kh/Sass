@@ -1,0 +1,38 @@
+footer{
+    width: 100%;
+    height: auto;
+    background-color: $color-red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $size-20px;    
+    
+    p{
+        font-size: $size-20px;
+        color: white;
+    }
+
+    div {
+        display: flex;
+        margin: $size-15px;
+        div{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: $color-gray;
+            position: relative;
+            a{
+                color: $color-red;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }            
+        }
+        div:hover{
+            background-color: $color-black;
+            cursor: pointer;
+            
+        }
+    }
+}

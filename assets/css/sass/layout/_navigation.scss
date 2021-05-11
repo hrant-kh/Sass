@@ -1,0 +1,22 @@
+nav{
+    padding: $size-20px;
+    ul{
+        display: flex;
+        li{
+            padding: $size-10px;
+            a{
+                font-size: $size-20px;
+                color: $color-black;
+                text-transform: uppercase;
+            }   
+            a:hover{
+                padding: $size-10px;
+                border-radius: $size-15px;
+                background-color: $color-gray;  
+                color: $color-blue;      
+                cursor: pointer;
+            }      
+        }    
+    }
+    
+}
